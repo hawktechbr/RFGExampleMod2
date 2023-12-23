@@ -11,7 +11,7 @@ public class TestTileEntity extends TileEntity {
     }
 
     @Override
-    public void read() {
+    public void writeToNBT(NBTTagCompound compound) {
 
     }
 
